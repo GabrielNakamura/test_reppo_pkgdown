@@ -43,7 +43,8 @@ Authors@R: c(
             )
 Description: Toolset to analyze patterns and processess associated with historical events.
 License: MIT + file LICENSE
-URL: https://gabrielnakamura.github.io/Herodotools/
+URL: https://gabrielnakamura.github.io/Herodotools/,
+    https://gabrielnakamura.github.io/test_reppo_pkgdown/
 Depends: 
     R (>= 2.10)
 Imports:
