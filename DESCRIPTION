@@ -50,11 +50,13 @@ Depends:
 Imports:
     adegenet,
     ape,
+    cowplot,
     dplyr,
     gtools,
     here,
     magrittr,
     knitr,
+    patchwork,
     PCPS,
     phylobase,
     phyloregion,
