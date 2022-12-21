@@ -1,0 +1,88 @@
+Package: Herodotools
+Title: Tools for Historical Biogeography analysis
+Version: 1.0.0
+Authors@R: c(
+           person(given = "Gabriel",
+           family = "Nakamura",
+           role = c("aut", "cre"),
+           email = "gabriel.nakamura.souza@gmail.com",
+           comment = c(ORCID = "0000-0002-5144-5312")
+                  ),
+           person(given = "Arthur",
+           family = "Rodrigues",
+           role = "aut",
+           email = "rodrigues.arthur.v@gmail.com",
+           comment = c(ORCID = "0000-0003-2656-558X")
+                  ),
+           person(given = "André",
+           family = "Luza",
+           role = "aut",
+           email = "luza.andre@gmail.com",
+           comment = c(ORCID = "0000-0003-0302-529X",
+                      ResearcherID = "O-1134-2017")
+                  ),
+           person(given = "Vanderlei",
+           family = "Debastiani",
+           role = "aut",
+           email = "vanderleidebastiani@yahoo.com.br",
+            comment = c(ORCID = "0000-0003-0807-025X")
+                  ),
+           person(given = "Renan",
+           family = "Maestri",
+           role = "aut",
+           email = "renanmaestri@gmail.com",
+           comment = c(ORCID = "0000-0001-9134-2943")
+           ),          
+           person(given = "Leandro",
+           family = "Duarte",
+           role = "aut",
+           email = "duarte.ldas@gmail.com",
+           comment = c(ORCID = "0000-0003-1771-0407",
+                      ResearcherID = "B-6552-2012")
+                  )
+            )
+Description: Toolset to analyze patterns and processess associated with historical events.
+License: MIT + file LICENSE
+URL: https://gabrielnakamura.github.io/Herodotools/
+Depends: 
+    R (>= 2.10)
+Imports:
+    adegenet,
+    ape,
+    dplyr,
+    gtools,
+    here,
+    magrittr,
+    knitr,
+    PCPS,
+    phylobase,
+    phyloregion,
+    phytools,
+    picante,
+    rlang,
+    rmarkdown,
+    scales,
+    SYNCSA,
+    vegan
+VignetteBuilder:
+    knitr, 
+    rmarkdown
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    BioGeoBEARS (>= 1.1.2),
+    cladoRcpp,
+    daee,
+    ggplot2,
+    HDInterval,
+    moments,
+    phangorn,
+    raster,
+    rcartocolor,
+    rlist,
+    sf
+Remotes: 
+    nmatzke/BioGeoBEARS,
+    vanderleidebastiani/daee
