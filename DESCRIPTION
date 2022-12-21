@@ -61,6 +61,7 @@ Imports:
     phytools,
     picante,
     rlang,
+    rnaturalearth,
     rmarkdown,
     scales,
     SYNCSA,
